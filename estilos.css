@@ -1,0 +1,39 @@
+#parrafoNaranja{
+   height: 110px;
+    border: 5px dotted orange;
+}
+.resaltadoNaranja{
+    color: orange;
+}
+.resaltadoVerde{
+    color: green;
+}
+#contenedorIzq{
+    float: left;
+    width: 45%;
+   
+}
+
+.bordeAzul{
+    text-align: center;
+    border: 3px blue solid;
+
+}
+#contenedorDch{
+    overflow: hidden;
+    float: right;
+    width: 50%;
+    height: 350px;
+}
+.bordeRosa{ border: 5px double palevioletred;
+
+}
+.textoRosa{
+    color: palevioletred;
+}
+.textoAzul{
+    color: blue;
+}
+.raya{
+    width: 100%;
+}
