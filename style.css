@@ -1,13 +1,62 @@
- header{ overflow: hidden;
+h1{ margin: auto;
+    text-align: center;
+    width: 75%;
 
- }
- h1{
-            width:38%;
-            margin: auto;
-        }
-.hemiciclo{
-            
-            text-align: center;
-            border: 2px black solid;
-            width: 98%;
-        }
+}
+body{
+    background-color:  #f4f4f4;
+    
+   
+}
+.fondoRojo{
+    color: aliceblue;
+    background-color: #D32F2F;
+    border: 2px  #228B22 solid;
+}
+.colorDorado{ color: #FFEB3B;
+    font-size: larger;
+   
+    
+}
+.textoCentrado{
+    text-align: center;
+}
+main{
+    margin: auto;
+    width: 100%;
+}
+#contenedorGeneral{
+    margin: auto;
+    width: 75%;
+}
+#contenedorIzq{
+    
+    float: left;
+   width: 44%;
+   height: 330px;
+}
+#contenedorDch{
+    
+    float: right;
+    width: 55%;
+}
+#img{
+    clear: both;
+    margin: auto;
+    width: 19%;
+    border:3px #228B22 solid;
+}
+.colorVerde{
+    color: #228B22;
+}
+#contenedorAbajo{
+    height: 200px;
+    margin: auto;
+    clear: both;
+    width: 80%;
+}
+.fondoAmarillo{
+    border: #228B22 solid;
+    background-color: #f0e68c;
+}
+
