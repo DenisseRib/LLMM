@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ejercicio7.css">
+</head>
+
+<body>
+    <fieldset>
+        <legend>formulario de pedido</legend>
+        <h1> Paso 1. Identificacion</h1>
+
+        <div class="enlaIzq">
+            <fieldset>
+                <legend>Datos del cliente</legend>
+                <label for="dato">Correo electrónico <input type="email" name="correo"></label> <br>
+                <label for="dato1">Contraseña <input type="password" name="contraseña"> </label> <br>
+                (longitud mínima 6 carácteres)
+            </fieldset>
+        </div>
+        <div class="enlaDcha">
+            <fieldset>
+                <legend> Tipo de cliente </legend>
+                <label for="particular">Particular <input type="radio" name="Particular"> </label><br>
+                <label for="asociacion">Asociacion <input type="radio" name="Particular"> </label> <br>
+                <label for="empresa"> Empresa <input type="radio" name="Particular"></label>
+
+            </fieldset>
+
+
+        </div>
+        <div class="Abajo"></div>
+        <h1>Paso 2. Pedido</h1>
+
+        <div class="enlaIzq">
+            <fieldset>
+                <legend>
+                    Datos del producto
+                </legend>
+                <label for="selection">
+                    <select name="Select" multiple size="8">
+                        <option value="Libros" selected> Libros</option>
+                        <option value="libro1"> Recetas</option>
+                        <option value="libro2">Historia</option>
+                        <option value="libro3"> Técnicos</option>
+                        <option value="Calendarios" selected> Calenadrios</option>
+                        <option value="calendario1"> Escolar</option>
+                        <option value="calendario2 ">Anual</option>
+                    </select>
+                </label>
+            </fieldset>
+        </div>
+        <div class="enlaDcha">
+            <fieldset>
+                <legend> Información de interés</legend>
+                <label for="comentario"> <textarea name="comentario">Comentarios  </textarea> </label> <br>
+                <label for="aceptar">Acepto recibir notificaciones <input type="checkbox" name="acepto"></label>
+            </fieldset>
+
+        </div>
+
+        </div>
+        <div class="Abajo">
+            <h1>3. Pago</h1>
+            <div class="enlaIzq">
+                <fieldset>
+                    <legend>Datos del envío</legend>
+                    <label for="Dirección"> Dirección <input type="text" name="Direccion"></label> <br>
+                    <label for="Ciudad">Ciudad <input type="text" name="Ciudad"></label>
+                    <label for="Cpostal"> Codigo postal <input type="text" name="cPostal"></label>
+
+                </fieldset>
+
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+        <div class="enlaDcha">
+            <fieldset>
+                <legend>Datos bancarios</legend>
+                <label for="Entidad">Nombre de la entidad <input type="text" name="Entidad"></label> <br>
+                <label for="Nº de Cuenta"> Numero de cuenta <input type="text" name="Cuenta"></label>
+
+
+
+            </fieldset>
+
+
+
+        </div>
+
+    </fieldset>
+</body>
+
+</html>

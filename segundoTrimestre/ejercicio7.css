@@ -1,0 +1,17 @@
+.enlaIzq{
+    width: 50%;
+    height: 200px;
+    float: left;
+    margin: auto;
+
+}
+.enlaDcha{
+   width: 40%;
+    float: right;
+    margin: auto;
+}
+.Abajo{
+    width: 100%;
+    clear: both;
+    margin: auto;
+}

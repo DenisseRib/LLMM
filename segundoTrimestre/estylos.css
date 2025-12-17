@@ -1,0 +1,10 @@
+#formulario{
+  
+    margin: auto;
+}
+#form{
+    border: 3px red dotted;
+    height: 55%;
+    width: 45%;
+    margin: auto;
+}

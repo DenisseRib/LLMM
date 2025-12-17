@@ -1,0 +1,10 @@
+table, th, td{
+    border: 2px rgb(243, 8, 137) solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+table{
+    border: 4px rgb(250, 9, 130) double;
+    width: 35%;
+    margin: auto;
+}

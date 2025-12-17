@@ -1,0 +1,23 @@
+#contenedorAmarillo{
+    margin: auto;
+    border: 2px yellow solid;
+    width: 35%;
+    height: 65px;
+}
+
+#enNegrita{
+    font-weight: bold;
+}
+#contenedorAzul{
+margin: auto;
+width: 35%;
+height: 100;
+border: 4px blue dotted;
+}
+#Enviar{
+    display: block;
+    margin: auto;
+    width: 20%;
+    height: 22PX;
+    text-align: center;
+}

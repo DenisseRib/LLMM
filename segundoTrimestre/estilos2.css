@@ -1,0 +1,39 @@
+ th, td{
+ border: 3px  rgb(255, 4, 234) double;
+    border-collapse: collapse;
+    text-align: center;
+}
+#tablaRosa{
+       
+    border: 4px rgb(255, 4, 234) double;
+    width: 55%;
+    margin: auto;
+    height: 200px;
+}
+#tablaIzq{
+       
+    background-color: blanchedalmond;
+    float: left;
+    width: 45%;
+    margin: auto;
+    height: 250px;
+
+}
+#tablaDerecha{
+      
+    background-color: rgb(216, 238, 245);
+    float: right;
+    width: 55%;
+    height: 250px;
+    margin: auto;
+}
+#tablaBorde{
+    border-collapse: collapse;
+    border: 4px rgb(255, 4, 234) solid;
+    width: 40%;
+    margin: auto;
+    height: 200px;
+}
+thead{
+    font-weight: bold;
+}

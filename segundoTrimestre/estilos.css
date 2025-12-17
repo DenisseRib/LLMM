@@ -1,0 +1,17 @@
+#tablaCentrada{
+    
+    margin: auto;
+    width: 60%;
+}
+table{
+    border: 4px  blue double;
+    border-collapse: collapse;
+    
+}
+td{
+
+    border: 2px rgb(0, 17, 255) solid;
+ }
+ th{
+    color: blue;
+    }
