@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="ejercicio11.html">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="fecha"> Fecha <input type="date" name="fecha" id="fecha" required></label><br><br>
+            <label for="ciudad ">Ciudad <input type="text" name="ciudad" id="ciudad" pattern="[A-Z].*"
+                    list="listaCiudades">
+            </label><br><br>
+            <datalist id="listaCiudades">
+                <option value="Madrid"> Madrid</option>
+                <option value="Salamanca">Salamanca</option>
+                <option value="Burgos">Burgos</option>
+                <option value="Barcelona">Barcelona</option>
+                <option value="Palencia">Palencia</option>
+            </datalist>
+            <label for="teléfono">Telefóno <input type="text" name="telefono" id="telefono"
+                    pattern="[6789][0-9]{8}|[34|44][0-9]{11}"></label><br><br>
+            <label for="mail">Email <input type="email" name="mail" id="mail" required></label><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Datos bancarios</legend>
+            <label for="nTarjeta">Número de tajeta <input type="text" min="14" max="16"
+                    pattern="[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{2,4}" required></label><br><br>
+            <label for="cvv">Cvv <input type="text" name="cvv" id="cvv" placeholder="nº de 3 dígitos"
+                    pattern="[0-9]{3}" required></label><br><br>
+            <label for="fechaC">Fecha de caducidad <input type="month" name="mes" id="mes" required></label><br><br>
+        </fieldset>
+        <input type="submit" value="Enviar">
+
+
+
+
+    </form>
+</body>
+
+</html>

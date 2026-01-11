@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo9.css">
+</head>
+
+<body>
+    <form action="exito.html">
+        <label for="piso">Piso <input type="radio" name="piso" id="piso"></label>
+        <label for="adosado">Adosado <input type="radio" name="piso" id="adosado"></label>
+        <label for="casa">Casa Individual <input type="radio" name="piso" id="casa"></label><br> <br>
+        <label for="calle">Calle <input type="text" name="calle" id="calle" required pattern="(Vía/|C\)[A-Za-z]+"></label><br> <br>
+        <label for="numero">Número <input type="number" name="numero" id="num" required></label><br> <br>
+        <label for="Npiso">Piso y Puerta <input type="text" name="Npiso" id="Npiso" pattern="[0-9]{1}[ª-º][A-Z]"></label><br> <br>
+        <label for="mail"> Correo electrónico <input type="email" name="mail" id="mail" required pattern="^[A-Za-z0-9]+@[A-Za-z0-9]+\.es$"></label><br> <br>
+        <label for="nTelf"> Número de teléfono <input type="text" name="teléfono" id="teléfono" pattern="^[0-9]{3} [0-9]{3} [0-9]{3}$"></label><br> <br>
+
+        <label for="descripcion"> Descripción <textarea name="descripcion" id="descripcion"
+                maxlength="500"></textarea></label> <br> <br>
+        <label for="direccionMail"> Página web del inmueble <input type="url" name="url" id="url"></label>
+        <input type="submit" value="Enviar"> <input type="reset" value="Borrar">
+    </form>
+</body>
+
+</html>

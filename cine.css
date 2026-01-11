@@ -1,0 +1,76 @@
+.enRojo {
+    background-color: red;
+    color: antiquewhite;
+    width: 50%;
+    height: 40px;
+   
+
+}
+
+#main {
+    border: 2px solid red;
+    
+  
+    height: 700px;
+    background-color: rgb(211, 229, 248);
+}
+
+.azulOscuro {
+    background-color: rgb(167, 198, 254);
+}
+
+.pelicula {
+    justify-content: space-between;
+
+    display: flex;
+    align-items: center;
+
+
+}
+#contenedorCartelera{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.columnaDcha {
+        justify-content: space-between;
+
+    width: 15%;
+   
+}
+
+
+.imgIzq {
+    display: flex;
+    align-items: center;
+   
+}
+
+.columna {
+    justify-content: space-between;
+    float: left;
+    width: 20%;
+
+}
+
+.imagen {
+
+
+    width: 120px;
+    margin-right: 20px;
+
+}
+
+.textoMorado {
+    color: blueviolet;
+}
+
+.pelicula p {
+    text-align: left;
+}
+
+
+#info {
+    width: 30%;
+}
