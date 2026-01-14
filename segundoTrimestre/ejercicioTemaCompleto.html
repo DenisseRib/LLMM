@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ejercicioCompleto.css">
+</head>
+
+<body>
+    <header>
+        <div id="contenedorCentrado">
+            <h1 class="textoMorado">MUNDIAL DE BALOMANO POLONIA-SUECIA 2023</h1>
+            <img src="ogp.png" alt="imagen" id="img">
+            <div id="opciones">
+                <p>HOME </p> <p>JUGADORES</p> <p>EQUIPOS</p>
+                 
+                    
+            </div>
+
+
+        </div>
+    </header>
+    <main>
+        <form action="ejercicioTemaCompleto.html">
+            <fieldset>
+                <legend>Nuevo Jugador</legend>
+                <label for="nombre">Nombre <input type="text" name="nombre" id="nombre" required></label> <br> <br>
+                <label for="Edad"> Edad <input type="text" name="edad" id="edad" pattern="[16-45]"></label><br> <br>
+                <label for="Equipo">Equipo <select name="equipo" id="listaEquipo" required></label><br> <br>
+                    <datalist id="listaEquipo">
+                        <option value="Dinamarca">Dinamarca</option>
+                        <option value="Noruega">Noruega</option>
+                        <option value="España">España</option>
+                        <option value="Polonia">Polonia</option>
+                        <option value="Francia">Francia</option>
+
+
+                    </datalist><br><br>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+        <div id="jugadores">
+            <ul>Ultimos jugadores añadidos
+                <li>Eric Johansson</li>
+                <li>Juri Knor</li>
+                <li>Symon Pytik</li>
+            </ul>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WCyKtE9quj0?si=kHOFgAGOo_BL9A_r"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="video"></iframe>
+
+        </div>
+        <div id="videito"></div>
+
+
+    </main>
+
+</body>
+
+</html>

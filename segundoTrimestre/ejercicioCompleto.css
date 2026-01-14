@@ -1,0 +1,55 @@
+#contenedorCentrado{
+    width: 95%;
+    margin: auto;
+align-items: center;
+
+
+}
+.textoMorado{
+    text-align: center;
+   color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+
+}
+#img{
+    display: flex;
+width: 250px;
+height: 200px;
+margin: auto;
+}
+#opciones { display: flex;
+    margin: auto;
+    border: 2px rgb(71, 28, 71) solid;
+    width: 45%;
+    height: 90px;
+    text-align: center;
+}
+#opciones p{
+    padding: 60px;
+
+    margin: 0 20px;
+}
+main{
+    width: 95%;
+}
+fieldset{
+height: 150px;
+width: 300px;
+color: blueviolet;
+border: 3px rgb(180, 13, 150) solid;
+}
+#video{
+ margin:0 25px;
+    width: 40%;
+    height: 50%;
+    
+    float: right;
+
+
+
+}
+#videito{
+  
+}
