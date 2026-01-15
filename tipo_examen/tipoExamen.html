@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipo examen</title>
+    <link rel="stylesheet" href="./estilos/estilo.css">
+</head>
+
+<body>
+    <header>
+        <img id="logoZara" src="./img/logoZara.svg" alt="logoZara">
+
+        <nav>
+            <h1><b>REBAJAS</b></h1>
+            <p>Nuevo Producto</p>
+            <p>Modificar Producto</p>
+            <p>Eliminar Producto</p>
+        </nav>
+    </header>
+    <section>
+        <video src="./img/vertical.mp4" id="paisaje" autoplay></video>
+        <form action="./src/Alemania">
+           <fieldset>
+            <legend>
+                Nuevo Producto
+            </legend>
+            <label for="Categoria" > Categoria</label>
+            <select name="Categoria" id="Categoria">
+                <option value="abr">Abrigo</option>
+                <option value="cam">Camiseta</option>
+                <option value="pan" selected>Pantalon</option>
+            </select>
+            <label for="CodProducto">Código Producto</label>
+            <input type="text" name="CodProducto" id="CodProducto" required pattern="[A-Za-z]{}">
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="Nombre" id="Nombre">
+            <label for="color">Color</label>
+            <input type="color" name="color" id="color">
+<input type="submit" value="Buscar"/>
+
+           </fieldset> 
+        </form>
+        <video src="./img/modelo.mp4" id="modelo" autoplay></video>
+
+
+
+
+    </section>
+</body>
+
+</html>
