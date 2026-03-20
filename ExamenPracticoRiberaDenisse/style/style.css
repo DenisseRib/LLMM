@@ -1,0 +1,112 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+}
+header{
+    width: 100%;
+}
+header nav{
+    height: 75px;
+    top: 0;
+    width: 100%;
+    text-align: center;
+ 
+   position: fixed;
+background-color: #008b8b69;
+}
+nav ul{
+   float: right;
+   margin-right: 135px ;
+    display: flex;
+    font-size: 20px;
+    gap: 75px;
+    list-style: none;
+}
+
+nav a , .imgCard h2, .imgCard p, .miniFooter  {
+
+    font-weight: bold;  
+     color:  #ff4500 ;
+}
+
+nav a:hover{
+    font-size: x-large;
+    color: greenyellow;
+}
+.cabecera{
+    color: #008b8b;
+  width: 75%;
+    margin: auto;
+    margin-top: 25px;
+}main{
+    
+    width: 100%;
+}
+.cabecera h1{
+    margin-top: 0px;
+    margin-left: 350px;
+   
+    margin-bottom: 0px;
+   font-size: 70px;
+   height: 65px;
+  
+  
+  text-decoration-color: #ff4500;
+
+  animation:slide-in-right .35s cubic-bezier(.25,.46,.45,.94) both;
+
+}
+
+@keyframes slide-in-right{
+  
+
+    0%{ 
+        -webkit-transform:translateX(1000px); ;transform:translateX(1000px);opacity:20}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes slide-in-right{0%{-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1 ;   color: #008b8b;}}
+
+        .parrafoInterno{
+    padding-top: 0px;
+    width: 30%;
+margin-left: 835px;
+ 
+
+}
+.imgCard{
+  
+    width: 85%;
+    align-items: center;
+    margin: auto;
+  padding-bottom: 20px;
+    background-color: #008b8b56;
+}
+.imgCard img{
+   align-items: center;
+  padding: 0 95px;
+  margin-left: 95px;
+    
+}
+
+footer{
+  
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 90px;
+    width: 100%;
+    background-color: #008b8b56;
+    color: #fff;
+    padding: 8px 0;
+    z-index: 9999;
+    
+}
+.miniFooter{
+    padding-top: 0px;
+    margin: 0px 325px;
+}
+.dir{
+    float: right;
+    width: 35%;
+    margin-bottom: 100px;
+}
+input:invalid{
+    background-color: greenyellow;
+}
